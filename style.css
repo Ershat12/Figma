@@ -33,6 +33,7 @@ header {
 p {
     font-family: "Mulish", sans-serif;
     font-size: 18px;
+    line-height: 180%; 
 }
 .header_ul {
     display:flex;
@@ -48,15 +49,20 @@ a {
     color:#000;
 }
 #logo {
-    font-size: 20px;
-    font-weight: 700;
+  color: var(--Text-Color, #000);
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 #logo-font{
     color:#A8B4FF;
 }
 .header_link {
-    font-size: 18px;
-    font-weight: 700;
+  color: var(--Text-Color, #000);
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: lowercase;
 }
 .header_ul a {
     font-size: 18px;
@@ -96,13 +102,13 @@ a {
   }
   h1,
   h2 {
-    font-family: "Abril Fateface", serif;
+    font-family: "Abril Fatface", serif;
     font-size: 56px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 400;
     line-height: normal;
     color: var(--Text-Color, #000);
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
   
   }
   .p1 {
@@ -119,15 +125,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: flex-start;
 
   }
-  .latest {
-    font-weight: 700;
-    font-size: 14px;
-    font-family: "Mulish", sans-serif;
-    font-style: normal;
-    letter-spacing: 2.8px;
-    text-transform: uppercase;
-    color: #B7B4B9;
-  }
   .p3 {
     margin: 32px 0 64px 0;
   }
@@ -142,8 +139,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 700;
 & button{
     padding:6px 10px;
-    border-radius:1px;
-    background-color: #A8B4FF;;
+    background-color: #A8B4FF;
+    border: none;
 }
 }
 #shaded_text {
@@ -185,8 +182,8 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #pattern-left {
   position: absolute;
-  bottom: -4px;
-  left: -10px;
+  bottom: -15px;
+  left: -20px;
 }
 #footer {
   color: rgba(0, 0, 0, 0.50);
@@ -211,4 +208,24 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .content_2 {
   margin: -110px 0 128px 0;
+}
+.latest {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 2.8px;
+  color: #B7B4B9;
+}
+#work {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+#design {
+  font-family: "Mulish", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: lowercase;
 }
